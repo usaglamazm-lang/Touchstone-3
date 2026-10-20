@@ -1,1 +1,1 @@
-Add original Task 2 media assets here: bakery-logo_c.png, bakery-feature-small_c.png, bakery-feature-large_c.png, bakery-bread_c.png, bakery-signature-loaf_c.png, bakery-storefront_c.png, bakery-welcome_c.mp3. These assets were not included in the supplied Word documents.
+Touchstone 3
