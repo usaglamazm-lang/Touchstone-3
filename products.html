@@ -1,69 +1,67 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Our breads pastries and cakes at North Star Bakery.">
-  <title>Our breads pastries and cakes | North Star Bakery</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Our breads pastries and cakes at North Star Bakery." name="description"/>
+<title>Our breads pastries and cakes | North Star Bakery</title>
+<link href="styles.css" rel="stylesheet"/>
+<script defer="" src="script.js"></script></head>
 <body>
-  <!-- Fictional course project. Business details are sample content. -->
-  <a class="skip-link" href="#main-content">Skip to main content</a>
-  <header class="site-header">
-    <a href="index.html">
-      <img src="media/bakery-logo_c.png" width="160"
-           alt="North Star Bakery home">
-    </a>
-    <h1>Our breads pastries and cakes</h1>
-    <nav aria-label="Primary">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="products.html" aria-current="page">Products</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main id="main-content" class="page-content">
-    <p>Choose a daily treat or plan ahead for a gathering. Prices below
+<!-- Fictional course project. Business details are sample content. -->
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header class="site-header">
+<a href="index.html">
+<img alt="North Star Bakery home" src="media/bakery-logo_c.png" width="160"/>
+</a>
+<h1>Our breads pastries and cakes</h1>
+<nav aria-label="Primary">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a aria-current="page" href="products.html">Products</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</header>
+<main class="page-content" id="main-content">
+<section aria-labelledby="planner-title" class="content-card planner"><h2 id="planner-title">Your bakery favorites &amp; preorder planner</h2><p>Save items you love and choose a preferred category. Your selections stay on this browser for your next visit. Prices are illustrative; no purchase is made.</p><label for="category-choice">Preferred bakery category</label><select id="category-choice"><option value="all">All bakery items</option><option value="bread">Breads</option><option value="pastry">Pastries and cookies</option><option value="cake">Celebration cakes</option></select><div aria-label="Bakery items" class="favorite-items" id="favorite-items"></div><p aria-live="polite" id="favorite-summary"></p><button id="clear-favorites" type="button">Clear favorites</button> <a class="planner-link" href="contact.html">Plan a preorder inquiry</a></section><p>Choose a daily treat or plan ahead for a gathering. Prices below
       are sample ranges; contact us to confirm availability and a quote.</p>
-    <section class="content-card" aria-labelledby="bread-heading">
-      <h2 id="bread-heading">Breads</h2>
-      <img src="media/bakery-bread_c.png" width="400"
-           alt="Rustic round bread loaves displayed behind bakery glass">
-      <p>Enjoy slow fermented sourdough and everyday sandwich loaves.
+<section aria-labelledby="bread-heading" class="content-card">
+<h2 id="bread-heading">Breads</h2>
+<img alt="Rustic round bread loaves displayed behind bakery glass" src="media/bakery-bread_c.png" width="400"/>
+<p>Enjoy slow fermented sourdough and everyday sandwich loaves.
         Sample range: $6 to $12 per loaf.</p>
-      <figure>
-        <img src="media/bakery-signature-loaf_c.png" width="400"
-             alt="Round Signature Loaf with a dark flour dusted crust">
-        <figcaption>Our Signature Loaf is baked with a rustic crust
+<figure>
+<img alt="Round Signature Loaf with a dark flour dusted crust" src="media/bakery-signature-loaf_c.png" width="400"/>
+<figcaption>Our Signature Loaf is baked with a rustic crust
           for sharing at the family table. Sample price: $9.</figcaption>
-      </figure>
-    </section>
-    <section class="content-card" aria-labelledby="pastry-heading">
-      <h2 id="pastry-heading">Pastries and cookies</h2>
-      <p>Pick up a flaky pastry or a cookie for a commuter breakfast,
+</figure>
+</section>
+<section aria-labelledby="pastry-heading" class="content-card">
+<h2 id="pastry-heading">Pastries and cookies</h2>
+<p>Pick up a flaky pastry or a cookie for a commuter breakfast,
         an afternoon break, or a family treat.</p>
-      <p>Sample range: $3 to $6 each; sharing boxes from $18 to $30.</p>
-    </section>
-    <section class="content-card" aria-labelledby="cake-heading">
-      <h2 id="cake-heading">Celebration cakes</h2>
-      <p>Tell us your occasion, guest count, and flavor preferences.
+<p>Sample range: $3 to $6 each; sharing boxes from $18 to $30.</p>
+</section>
+<section aria-labelledby="cake-heading" class="content-card">
+<h2 id="cake-heading">Celebration cakes</h2>
+<p>Tell us your occasion, guest count, and flavor preferences.
         We will discuss the details before confirming an order.</p>
-      <p>Sample range: $35 to $80, depending on size and decoration.</p>
-    </section>
-    <section class="content-card" aria-labelledby="order-heading">
-      <h2 id="order-heading">Plan your pickup</h2>
-      <p>Ask about lead times for larger orders. Please share allergy
+<p>Sample range: $35 to $80, depending on size and decoration.</p>
+</section>
+<section aria-labelledby="order-heading" class="content-card">
+<h2 id="order-heading">Plan your pickup</h2>
+<p>Ask about lead times for larger orders. Please share allergy
         concerns before ordering; our kitchen handles common allergens.</p>
-      <p><a href="contact.html">Send a preorder inquiry</a>.
+<p><a href="contact.html">Send a preorder inquiry</a>.
         No online checkout is available.</p>
-    </section>
-  </main>
-  <footer class="site-footer">
-    <p>&copy; 2026 North Star Bakery. Made for our neighborhood.</p>
-    <p><a href="contact.html">Ask about a preorder or visit</a></p>
-  </footer>
+</section>
+</main>
+<footer class="site-footer">
+<p>© 2026 North Star Bakery. Made for our neighborhood.</p>
+<p><a href="contact.html">Ask about a preorder or visit</a></p>
+</footer>
 </body>
 </html>
