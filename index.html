@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Welcome to North Star Bakery at North Star Bakery.">
+  <title>Welcome to North Star Bakery | North Star Bakery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Fictional course project. Business details are sample content. -->
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <a href="index.html">
+      <img src="media/bakery-logo_c.png" width="160"
+           alt="North Star Bakery home">
+    </a>
+    <h1>Welcome to North Star Bakery</h1>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main-content" class="page-content">
+    <section class="content-card hero" aria-labelledby="welcome-heading">
+      <h2 id="welcome-heading">Fresh from our oven</h2>
+      <p>Start your morning with handmade bread, a pastry, and a
+        friendly welcome. Pick up a family favorite on your way home.</p>
+      <picture>
+        <source media="(max-width: 600px)"
+                srcset="media/bakery-feature-small_c.png">
+        <img src="media/bakery-feature-large_c.png" width="600"
+             alt="Bakery display filled with cookies and pastries">
+      </picture>
+      <p><a href="products.html">Explore our breads and sweet treats</a></p>
+    </section>
+    <section class="content-card" aria-labelledby="known-heading">
+      <h2 id="known-heading">What we are known for</h2>
+      <ul>
+        <li>Slow fermented loaves with a crisp crust.</li>
+        <li>Small batches of pastries for busy mornings.</li>
+        <li>Cakes and shared treats for family celebrations.</li>
+      </ul>
+    </section>
+    <section class="content-card" aria-labelledby="featured-heading">
+      <h2 id="featured-heading">Featured item of the week</h2>
+      <p>Our Signature Loaf has a dark, rustic crust and a soft center.
+        Pair it with soup or share it around the dinner table.</p>
+      <p>Sample price: $9 per loaf. Availability varies by day.</p>
+      <p><a href="contact.html">Request a Signature Loaf for pickup</a></p>
+    </section>
+    <section class="content-card" aria-labelledby="visit-heading">
+      <h2 id="visit-heading">Plan your visit</h2>
+      <p>Find us at our Main Street neighborhood shop.</p>
+      <p>Tuesday through Friday: 7 a.m. to 5 p.m.; Saturday and Sunday:
+        8 a.m. to 2 p.m. Closed Monday. Sample hours and location.</p>
+      <p><a href="contact.html#visit">View hours and location details</a></p>
+    </section>
+    <section class="content-card" aria-labelledby="audio-heading">
+      <h2 id="audio-heading">A welcome from our bakery</h2>
+      <audio controls preload="metadata">
+        <source src="media/bakery-welcome_c.mp3" type="audio/mpeg">
+        Your browser does not support this audio player.
+        <a href="media/bakery-welcome_c.mp3">Download the welcome audio</a>.
+      </audio>
+      <p><a href="media/bakery-welcome_c.mp3">Open the audio file</a>
+        if the player does not load.</p>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p>&copy; 2026 North Star Bakery. Made for our neighborhood.</p>
+    <p><a href="contact.html">Ask about a preorder or visit</a></p>
+  </footer>
+</body>
+</html>
